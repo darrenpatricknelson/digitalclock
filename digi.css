@@ -1,0 +1,52 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#frame {
+    font-family: 'Orbitron', sans-serif;
+    background-color: red;
+    border: 10px solid white;
+    border-radius: 2%;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hours {
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+}
+#colon {
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+}
+#minutes {
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+}
