@@ -10,12 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div id="frame">
+<body onload="initClock()">
+    <!-- <div id="frame">
         <div id="hours"></div>
         <div id="colon">:</div>
         <div id="minutes"></div>
+    </div> -->
+
+    <!-- digital clock start -->
+    <div class="datetime">
+        <div class="date">
+            <span id="dayname">Day</span>,
+            <span id="month">Month</span>
+            <span id="daynum">00</span>,
+            <span id="year">Year</span>
+        </div>
+        <div class="time">
+            <span id="hour">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+        </div>
     </div>
+    <!-- digital clock end -->
 
     <script src="digi.js"></script>
 </body>
